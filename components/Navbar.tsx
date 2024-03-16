@@ -4,8 +4,7 @@ import Link from 'next/link';
 import { limelight } from '@/app/fonts';
 import { LINKS } from '@/constans';
 import { usePathname } from 'next/navigation';
-import IconMoon from './IconMoon';
-import IconSun from './IconSun';
+import ThemeSwitch from './ThemeSwitch';
 
 function Navbar() {
   const pathname = usePathname();
@@ -31,9 +30,7 @@ function Navbar() {
           D_Bugajski
         </Link>
         <div className='flex gap-8 items-center'>
-          {renderedLinks}
-          <IconMoon className='text-green h-5 w-5 hover:text-white' />
-          <IconSun className='text-green h-5 w-5 hover:text-white' />
+          {renderedLinks} <ThemeSwitch />
         </div>
       </div>
     </>

@@ -71,7 +71,7 @@ export default function Home() {
             <p>Github</p>
             <p>Linkedin</p>
             <p>Resume</p>
-            <p className='w-full'>dawidbugajski1996@gmail.com</p>
+            <p>dawidbugajski1996@gmail.com</p>
           </div>
         </div>
       </div>
