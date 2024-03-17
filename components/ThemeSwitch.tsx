@@ -27,7 +27,7 @@ export default function ThemeSwitch() {
   if (resolvedTheme === 'dark') {
     return (
       <FaSun
-        className='w-6 h-6 text-white  hover:text-green transition-colors duration-150 '
+        className='w-6 h-6 text-white  hover:text-green transition-colors duration-150 cursor-pointer'
         onClick={() => setTheme('light')}
       />
     );
@@ -36,7 +36,7 @@ export default function ThemeSwitch() {
   if (resolvedTheme === 'light') {
     return (
       <FaMoon
-        className='w-6 h-6 text-black hover:text-green transition-colors duration-150'
+        className='w-6 h-6 text-black hover:text-green transition-colors duration-150 cursor-pointer'
         onClick={() => setTheme('dark')}
       />
     );

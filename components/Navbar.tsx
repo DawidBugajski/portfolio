@@ -14,26 +14,24 @@ function Navbar() {
     <Link
       key={link.href}
       href={link.href}
-      className={`${isActive(link.href) ? 'text-green' : ''} text-xl hover:text-green transition-colors duration-150`}
+      className={`${isActive(link.href) ? 'text-green' : ''} text-xl hover:text-green transition-colors duration-150  `}
     >
       {isActive(link.href) ? `> ${link.label}` : link.label}
     </Link>
   ));
 
   return (
-    <>
-      <div className='flex justify-between py-8 border-b-[#292828] border-b-2'>
-        <Link
-          href='/'
-          className={`${limelight.className} text-4xl text-white uppercase hover:text-green transition-colors duration-150`}
-        >
-          D_Bugajski
-        </Link>
-        <div className='flex gap-8 items-center'>
-          {renderedLinks} <ThemeSwitch />
-        </div>
+    <div className='flex justify-between py-8 border-b-slate-200 dark:border-b-[#292828] border-b-2 px-4 md:px-0'>
+      <Link
+        href='/'
+        className={`${limelight.className} text-2xl sm:text-3xl md:text-4xl uppercase hover:text-green transition-colors duration-150`}
+      >
+        D_Bugajski
+      </Link>
+      <div className='flex gap-2 sm:gap-6 md:gap-8 items-center'>
+        {renderedLinks} <ThemeSwitch />
       </div>
-    </>
+    </div>
   );
 }
 

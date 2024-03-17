@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang='en' className={anonymous.className} suppressHydrationWarning>
       <body>
         <Providers>
-          <main className='flex min-h-screen flex-col items-center justify-between bg-[#f3f4f6] dark:bg-gray'>
+          <main className='flex min-h-screen flex-col items-center justify-between bg-[#f3f4f6] dark:bg-gray dark:text-white text-gray '>
             <div className='flex-grow h-full container mx-auto flex flex-col justify-between'>
               <Navbar />
               {children}
