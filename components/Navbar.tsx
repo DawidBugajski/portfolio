@@ -21,7 +21,7 @@ function Navbar() {
   ));
 
   return (
-    <div className='flex items-center sm:justify-between py-4 sm:py-8 border-b-slate-200 dark:border-b-[#292828] border-b-2 px-4 2xl:px-0 flex-col sm:flex-row'>
+    <div className='flex items-center sm:justify-between py-4 sm:py-8 border-b-slate-200 dark:border-b-lines border-b-2 px-4 2xl:px-0 flex-col sm:flex-row'>
       <Link
         href='/'
         className={`${limelight.className} text-2xl sm:text-3xl md:text-4xl uppercase hover:text-green transition-colors duration-150`}

@@ -1,7 +1,9 @@
+import Career from '@/components/Career';
+
 export default function Exprience() {
   return (
     <div className='flex-grow'>
-      <h1>My exprience</h1>
+      <Career />
     </div>
   );
 }

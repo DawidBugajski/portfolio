@@ -5,9 +5,9 @@ function AboutContent() {
     <>
       <p className='tracking-wide'>
         <TextHighlight>In June 2019</TextHighlight>, I embarked on my career as
-        a <TextHighlight>Web Developer</TextHighlight>, a role I held for{' '}
-        <TextHighlight>two years</TextHighlight>. Subsequently, I was promoted
-        within the same company to the position of{' '}
+        a <TextHighlight>Web Developer</TextHighlight> at WeNet, a role I held
+        for <TextHighlight>two years</TextHighlight>. Subsequently, I was
+        promoted within the same company to the position of{' '}
         <TextHighlight>New Product Development Manager</TextHighlight>, where I
         contributed for another <TextHighlight>year and a half</TextHighlight>.
         Currently, for almost a year, I have been working as a{' '}

@@ -11,10 +11,20 @@ const config: Config = {
       colors: {
         gray: '#1a1a1a',
         green: '#42b883',
+        lines: '#292828 ',
       },
       backgroundImage: (theme) => ({
         'gradient-custom': 'linear-gradient(135deg, #42d392 25%, #647eff)',
       }),
+      borderRadius: {
+        jobBox: '0px 0px 80px 0px',
+      },
+      width: {
+        jobBox: 'calc(50% + 32px)',
+      },
+      spacing: {
+        jobBox: 'calc(50% - 32px)',
+      },
     },
   },
   plugins: [],
