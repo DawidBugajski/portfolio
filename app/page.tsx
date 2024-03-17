@@ -7,22 +7,21 @@ import AboutContent from '@/components/AboutContent';
 
 export default function Home() {
   return (
-    <div className='flex-grow'>
-      <h1 className='py-6 text-8xl bg-gradient-to-r from-green to-gray inline-block text-transparent bg-clip-text'>
+    <div className='flex-grow min-[1700px]:w-full w-11/12 mx-auto'>
+      <h1 className='py-4 sm:py-6 text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl  bg-gradient-to-r from-green to-gray inline-block text-transparent bg-clip-text'>
         Crafting Interactive Experiences with Precision and Passion...
       </h1>
-      <div className='flex items-center justify-between gap-12'>
-        <div className='w-[260px] h-[260px] rounded-full bg-gradient-custom flex justify-center items-center shrink-0'>
+      <div className='flex items-center justify-between gap-4 sm:gap-12 flex-col lg:flex-row'>
+        <div className='relative w-52 h-52 sm:w-[260px] sm:h-[260px] rounded-full bg-gradient-custom flex justify-center items-center shrink-0'>
           <Image
-            className='rounded-full'
-            height={250}
-            width={250}
+            className='rounded-full scale-95'
+            fill
             alt='Dawid Bugajski'
             src='/profile-picture.jpg'
+            sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
           />
         </div>
         <div className='flex flex-col gap-4'>
-          <h2 className='text-xl text-green font-bold'>About me</h2>
           <AboutContent />
         </div>
       </div>
