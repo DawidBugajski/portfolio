@@ -8,7 +8,7 @@ import AboutContent from '@/components/AboutContent';
 export default function Home() {
   return (
     <>
-      <h1 className='py-4 sm:py-6 text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl  bg-gradient-to-r from-green to-gray inline-block text-transparent bg-clip-text'>
+      <h1 className='py-4 sm:py-6 text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl  bg-gradient-to-r from-green to-gray inline-block text-transparent bg-clip-text overflow-hidden'>
         Crafting Interactive Experiences with Precision and Passion...
       </h1>
       <div className='flex items-center justify-between gap-4 sm:gap-12 flex-col lg:flex-row'>
@@ -56,6 +56,9 @@ export default function Home() {
             dawidbugajski1996@gmail.com
           </SocialLink>
         </div>
+      </div>
+      <div className='glitch-homepage' data-text='Supp?'>
+        Hi!
       </div>
     </>
   );

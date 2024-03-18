@@ -18,6 +18,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' className={anonymous.className} suppressHydrationWarning>
+      <link
+        rel='apple-touch-icon'
+        sizes='180x180'
+        href='/apple-touch-icon.png'
+      />
+      <link
+        rel='icon'
+        type='image/png'
+        sizes='32x32'
+        href='/favicon-32x32.png'
+      />
+      <link
+        rel='icon'
+        type='image/png'
+        sizes='16x16'
+        href='/favicon-16x16.png'
+      />
+      <link rel='manifest' href='/site.webmanifest' />
       <body>
         <Providers>
           <main className='flex min-h-screen flex-col items-center justify-between bg-[#f3f4f6] dark:bg-gray dark:text-white text-gray selection:bg-green selection:text-black'>
