@@ -17,6 +17,13 @@
   text-align: center;
 }
 
+.glitch {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @keyframes noise-anim {
   0% {
     clip: rect(37px, 9999px, 24px, 0);
@@ -199,8 +206,16 @@
 
   .glitch-homepage {
     position: absolute;
-    right: 1%;
-    bottom: 7%;
+    right: 7%;
+    bottom: -6%;
+    transform: translate(0);
+  }
+}
+
+@media (min-width: 1536px) {
+  .glitch-homepage {
+    position: absolute;
+    bottom: 9%;
   }
 }
 
