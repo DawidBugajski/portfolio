@@ -44,9 +44,11 @@ function ProjectItem({ project, logos }: ProjectItemProps) {
           <div className='flex gap-4 flex-wrap'>
             {project.technologies.map((tech) => {
               const logo = logos.find((logo) => logo.alt === tech);
-              return logo ? (
-                <StackItem key={logo.alt} src={logo.src} alt={logo.alt} />
-              ) : null;
+              return (
+                logo && (
+                  <StackItem key={logo.alt} src={logo.src} alt={logo.alt} />
+                )
+              );
             })}
           </div>
         </div>
