@@ -3,10 +3,6 @@ import { EXPERIENCE } from '@/constans';
 function Career() {
   return (
     <div>
-      <h2 className='text-2xl font-bold text-center py-4'>
-        My commercial experience
-      </h2>
-      <hr className='dark:border-white w-14 mx-auto' />
       <div className='relative mt-8 section-experience after:content-[""] after:absolute after:w-1 dark:after:bg-lines xl:after:left-1/2 after:left-8 after:inset-0 after:bg-light_lines'>
         {EXPERIENCE.map((item) => (
           <div

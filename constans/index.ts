@@ -40,7 +40,7 @@ export const LOGOS = [
 
 export const LINKS = [
   { href: '/', label: 'Home' },
-  { href: '/exprience', label: 'Exprience' },
+  { href: '/experience', label: 'Experience' },
   { href: '/projects', label: 'Projects' },
 ];
 
