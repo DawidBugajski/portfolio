@@ -4,6 +4,7 @@ import { anonymous } from './fonts';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Providers } from './providers';
+import ContentWrapper from '@/components/ContentWrapper';
 
 export const metadata: Metadata = {
   title: 'Dawid Bugajski - Frontend Developer',
@@ -19,10 +20,10 @@ export default function RootLayout({
     <html lang='en' className={anonymous.className} suppressHydrationWarning>
       <body>
         <Providers>
-          <main className='flex min-h-screen flex-col items-center justify-between bg-[#f3f4f6] dark:bg-gray dark:text-white text-gray '>
+          <main className='flex min-h-screen flex-col items-center justify-between bg-[#f3f4f6] dark:bg-gray dark:text-white text-gray selection:bg-green selection:text-black'>
             <div className='flex-grow h-full container mx-auto flex flex-col justify-between'>
               <Navbar />
-              {children}
+              <ContentWrapper>{children}</ContentWrapper>
               <Footer />
             </div>
           </main>

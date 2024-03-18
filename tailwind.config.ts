@@ -12,6 +12,7 @@ const config: Config = {
         gray: '#1a1a1a',
         green: '#42b883',
         lines: '#292828 ',
+        light_lines: '#E2E8F0',
       },
       backgroundImage: (theme) => ({
         'gradient-custom': 'linear-gradient(135deg, #42d392 25%, #647eff)',

@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 import Link from 'next/link';
 import { limelight } from '@/app/fonts';
 import { LINKS } from '@/constans';
