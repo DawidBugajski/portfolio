@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import StackItem from './StackItem';
 import { Project, Logo } from '@/types';
+import DynamicImage from './DynamicImage';
 
 interface ProjectItemProps {
   project: Project;
@@ -20,17 +21,7 @@ function ProjectItem({ project, logos }: ProjectItemProps) {
         >
           {project.title}
         </Link>
-        <div className='aspect-video relative overflow-hidden shadow-xl'>
-          <Link href={project.href} target='_blank' rel='noopener noreferrer'>
-            <Image
-              src={project.src}
-              alt={project.src}
-              layout='fill'
-              objectFit='cover'
-              className='lg:grayscale-[50%] hover:scale-110 transition-all duration-150 hover:grayscale-0'
-            />
-          </Link>
-        </div>
+        <DynamicImage src={project.src} href={project.href} />
         <div className='flex flex-col justify-center gap-4'>
           <Link
             className='text-2xl hover:text-green transition-colors duration-150 hidden xl:block'
