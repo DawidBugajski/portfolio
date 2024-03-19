@@ -3,12 +3,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
-interface DynamicImageProps {
+interface DynamicProjectImage {
   src: string;
   href: string;
 }
 
-function DynamicImage({ src, href }: DynamicImageProps) {
+function DynamicProject({ src, href }: DynamicProjectImage) {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
@@ -30,4 +30,4 @@ function DynamicImage({ src, href }: DynamicImageProps) {
   );
 }
 
-export default DynamicImage;
+export default DynamicProject;

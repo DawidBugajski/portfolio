@@ -20,4 +20,6 @@ export interface Project {
   href: string;
   content: string;
   technologies: string[];
+  repoHref?: string;
+  repoSrc?: string;
 }

@@ -1,8 +1,7 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import StackItem from './StackItem';
 import { Project, Logo } from '@/types';
-import DynamicImage from './DynamicImage';
+import DynamicProjectImage from './DynamicProjectImage';
 
 interface ProjectItemProps {
   project: Project;
@@ -21,16 +20,32 @@ function ProjectItem({ project, logos }: ProjectItemProps) {
         >
           {project.title}
         </Link>
-        <DynamicImage src={project.src} href={project.href} />
+        <DynamicProjectImage src={project.src} href={project.href} />
         <div className='flex flex-col justify-center gap-4'>
-          <Link
-            className='text-2xl hover:text-green transition-colors duration-150 hidden xl:block'
-            href={project.href}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            {project.title}
-          </Link>
+          <div className='flex items-center gap-4'>
+            <Link
+              className='text-2xl hover:text-green transition-colors duration-150 hidden xl:block'
+              href={project.href}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              {project.title}
+            </Link>
+            {project.repoHref && project.repoSrc && (
+              <Link
+                className='text-2xl hover:text-green transition-colors duration-150'
+                href={project.repoHref}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <StackItem
+                  key={project.href}
+                  src={project.repoSrc}
+                  alt='Repositorium'
+                />
+              </Link>
+            )}
+          </div>
           <p className='border-l-2 border-green pl-4'>{project.content}</p>
           <div className='flex gap-4 flex-wrap'>
             {project.technologies.map((tech) => {

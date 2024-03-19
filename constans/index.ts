@@ -1,3 +1,5 @@
+export const LOGO_GITHUB = '/github.svg';
+
 export const LOGOS = [
   { src: '/typescript.svg', alt: 'TypeScript' },
   { src: '/javascript.svg', alt: 'Javascript' },
@@ -36,13 +38,13 @@ export const EXPERIENCE = [
     startYear: '2022',
     title: 'New Product Development Manager',
     content:
-      'Transitioning to a New Product Development Manager at Wenet, I leveraged my programming expertise to create reusable components and templates that established the foundation for our web projects. My role was characterized by a significant involvement in the coding aspects of product development, including the architecture of high-fidelity prototypes and wireframes. This position allowed me to refine a product vision that balanced technical innovation with user-centric design, facilitating developers to craft interactive and dynamic websites.',
+      'Transitioning to a New Product Development Manager at WeNet, I leveraged my programming expertise to create reusable components and templates that established the foundation for our web projects. My role was characterized by a significant involvement in the coding aspects of product development, including the architecture of high-fidelity prototypes and wireframes. This position allowed me to refine a product vision that balanced technical innovation with user-centric design, facilitating developers to craft interactive and dynamic websites.',
   },
   {
     startYear: '2019',
     title: 'Web Developer',
     content:
-      'As a Web Developer at Wenet, I dedicated myself to the creation and deployment of hundreds of cutting-edge websites. My daily tasks included writing robust, clean code and implementing responsive design principles to ensure an optimal user experience across multiple devices. I engaged in productive collaborations with graphic designers to translate visual concepts into functional online experiences, and with project managers to streamline development workflows. I was also responsible for optimizing website performance and implementing SEO best practices to maximize online visibility.',
+      'As a Web Developer at WeNet, I dedicated myself to the creation and deployment of hundreds of cutting-edge websites. My daily tasks included writing robust, clean code and implementing responsive design principles to ensure an optimal user experience across multiple devices. I engaged in productive collaborations with graphic designers to translate visual concepts into functional online experiences, and with project managers to streamline development workflows. I was also responsible for optimizing website performance and implementing SEO best practices to maximize online visibility.',
   },
 ];
 
@@ -65,11 +67,11 @@ export const PROJECTS = [
     ],
   },
   {
-    title: 'Wenet',
+    title: 'WeNet',
     src: '/wenet.png',
     href: 'https://projekty.wenet.pl/',
     content:
-      "As a Web Developer at Wenet, I had the privilege of crafting hundreds of websites, tailoring each from available templates to meet the specific needs of our clients. My journey evolved as I stepped into the role of New Product Development Manager, where I focused on creating hundreds of reusable components. These components were the building blocks for over 100 unique website layouts, allowing our team to offer clients highly personalized websites. By efficiently showcasing these layouts, we enabled our staff to mix and match components on the fly, providing a bespoke website that truly reflected the individuality of each client's brand.",
+      "As a Web Developer at WeNet, I had the privilege of crafting hundreds of websites, tailoring each from available templates to meet the specific needs of our clients. My journey evolved as I stepped into the role of New Product Development Manager, where I focused on creating hundreds of reusable components. These components were the building blocks for over 100 unique website layouts, allowing our team to offer clients highly personalized websites. By efficiently showcasing these layouts, we enabled our staff to mix and match components on the fly, providing a bespoke website that truly reflected the individuality of each client's brand.",
     technologies: ['Javascript', 'Bootstrap', 'Joomla'],
   },
   {
@@ -79,6 +81,8 @@ export const PROJECTS = [
     content:
       "GameWorld is a passion project of mine that reflects my love for gaming. It's a comprehensive database where enthusiasts can find information on over 500,000 games spanning various genres and platforms. This project aims to be a one-stop resource for gamers seeking insights, reviews, and news about their favorite titles or discovering new ones. By curating a vast amount of gaming data, GameWorld serves as a vibrant community hub for gamers worldwide, promoting engagement and sharing a deep appreciation for the art and evolution of video games.",
     technologies: ['TypeScript', 'React', 'Redux', 'Tailwind CSS'],
+    repoHref: 'https://github.com/DawidBugajski/gameworld',
+    repoSrc: '/github.svg',
   },
   {
     title: 'Kanban',
@@ -87,5 +91,7 @@ export const PROJECTS = [
     content:
       "Kanban is a task management project designed to enhance productivity and organization for individuals and teams alike. Inspired by the principles of Jira and Trello, it allows users to create customized boards, tasks, and workflows tailored to their specific project needs. Kanban stands out by offering an intuitive interface coupled with powerful features that streamline project tracking and collaboration. It's built on the premise that effective task management should be accessible, flexible, and scalable, accommodating everything from personal projects to complex team-based endeavors. Kanban empowers users to visualize their work, manage deadlines, and achieve their goals more efficiently.",
     technologies: ['TypeScript', 'React', 'Next.js', 'Redux', 'Tailwind CSS'],
+    repoHref: 'https://github.com/DawidBugajski/kanban-task-management',
+    repoSrc: '/github.svg',
   },
 ];
