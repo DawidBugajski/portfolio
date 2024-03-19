@@ -1,22 +1,3 @@
-export const LOGO_ADOBEXD = '/adobexd.svg';
-export const LOGO_FIGMA = '/figma.svg';
-export const LOGO_GIT = '/git.svg';
-export const LOGO_JOOMLA = '/joomla.svg';
-export const LOGO_MONGO = '/mongo.svg';
-export const LOGO_MYSQL = '/mysql.svg';
-export const LOGO_NEXT = '/nextjs.svg';
-export const LOGO_NODE = '/node.svg';
-export const LOGO_PHP = '/php.svg';
-export const LOGO_PRESTA = '/prestashop.svg';
-export const LOGO_REACT = '/react.svg';
-export const LOGO_REDUX = '/redux.svg';
-export const LOGO_SASS = '/sass.svg';
-export const LOGO_STYLEDCOMPONENTS = '/styled-components.svg';
-export const LOGO_TAILWIND = '/tailwind.svg';
-export const LOGO_TYPESCRIPT = '/typescript.svg';
-export const LOGO_JAVASCRIPTA = '/javascript.svg';
-export const LOGO_BOOTSTRAP = '/bootstrap.svg';
-
 export const LOGOS = [
   { src: '/typescript.svg', alt: 'TypeScript' },
   { src: '/javascript.svg', alt: 'Javascript' },
