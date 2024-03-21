@@ -182,6 +182,12 @@
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
 
+#profile {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
 @media (min-width: 1280px) {
   #profile img {
     --m: radial-gradient(circle farthest-side at right, #000 99%, #0000) 0 100%/46%
