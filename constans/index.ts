@@ -5,7 +5,8 @@ export const LOGOS = [
   { src: '/javascript.svg', alt: 'Javascript' },
   { src: '/react.svg', alt: 'React' },
   { src: '/nextjs.svg', alt: 'Next.js' },
-  { src: '/redux.svg', alt: 'Redux' },
+  { src: '/vue.svg', alt: 'Vue' },
+  { src: '/redux.svg', alt: 'Redux / Redux Toolkit' },
   { src: '/tailwind.svg', alt: 'Tailwind CSS' },
   { src: '/styled-components.svg', alt: 'Styled Components' },
   { src: '/sass.svg', alt: 'SASS' },
@@ -58,7 +59,7 @@ export const PROJECTS = [
     technologies: [
       'TypeScript',
       'React',
-      'Redux',
+      'Redux / Redux Toolkit',
       'SASS',
       'Styled Components',
       'Presta',
@@ -80,7 +81,12 @@ export const PROJECTS = [
     href: 'https://dawidbugajski.github.io/gameworld/',
     content:
       "GameWorld is a passion project of mine that reflects my love for gaming. It's a comprehensive database where enthusiasts can find information on over 500,000 games spanning various genres and platforms. This project aims to be a one-stop resource for gamers seeking insights, reviews, and news about their favorite titles or discovering new ones. By curating a vast amount of gaming data, GameWorld serves as a vibrant community hub for gamers worldwide, promoting engagement and sharing a deep appreciation for the art and evolution of video games.",
-    technologies: ['TypeScript', 'React', 'Redux', 'Tailwind CSS'],
+    technologies: [
+      'TypeScript',
+      'React',
+      'Redux / Redux Toolkit',
+      'Tailwind CSS',
+    ],
     repoHref: 'https://github.com/DawidBugajski/gameworld',
     repoSrc: '/github.svg',
   },
@@ -90,7 +96,13 @@ export const PROJECTS = [
     href: 'https://kanban-task-management-ecru.vercel.app/',
     content:
       "Kanban is a task management project designed to enhance productivity and organization for individuals and teams alike. Inspired by the principles of Jira and Trello, it allows users to create customized boards, tasks, and workflows tailored to their specific project needs. Kanban stands out by offering an intuitive interface coupled with powerful features that streamline project tracking and collaboration. It's built on the premise that effective task management should be accessible, flexible, and scalable, accommodating everything from personal projects to complex team-based endeavors. Kanban empowers users to visualize their work, manage deadlines, and achieve their goals more efficiently.",
-    technologies: ['TypeScript', 'React', 'Next.js', 'Redux', 'Tailwind CSS'],
+    technologies: [
+      'TypeScript',
+      'React',
+      'Next.js',
+      'Redux / Redux Toolkit',
+      'Tailwind CSS',
+    ],
     repoHref: 'https://github.com/DawidBugajski/kanban-task-management',
     repoSrc: '/github.svg',
   },
