@@ -22,6 +22,7 @@ export const LOGOS = [
   { src: '/figma.svg', alt: 'Figma' },
   { src: '/nuxt.svg', alt: 'Nuxt' },
   { src: '/shopware.svg', alt: 'Shopware' },
+  { src: '/docker.svg', alt: 'Docker' },
 ];
 
 export const LINKS = [
