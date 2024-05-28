@@ -20,6 +20,8 @@ export const LOGOS = [
   { src: '/node.svg', alt: 'Node.js' },
   { src: '/adobexd.svg', alt: 'Adobe XD' },
   { src: '/figma.svg', alt: 'Figma' },
+  { src: '/nuxt.svg', alt: 'Nuxt' },
+  { src: '/shopware.svg', alt: 'Shopware' },
 ];
 
 export const LINKS = [
@@ -66,6 +68,22 @@ export const PROJECTS = [
       'PHP',
       'MySQL',
     ],
+  },
+  {
+    title: 'Go-Racing',
+    src: '/go-racing.png',
+    href: 'https://go-racing.pl/',
+    content:
+      'Go-Racing offers a thrilling selection of driving experiences for motorsport enthusiasts. The platform allows customers to book high-adrenaline activities such as driving a Formula 1 car, racing in a Lamborghini or Ferrari, and off-road adventures in rugged 4x4 vehicles. With locations across Poland, including top tracks like Silesia Ring and Tor Poznań, Go-Racing.pl provides unforgettable experiences tailored to all levels of driving expertise. The site ensures a safe and exhilarating adventure with professional training and support from experienced instructors.',
+    technologies: ['TypeScript', 'Vue', 'Nuxt', 'Tailwind CSS', 'Shopware'],
+  },
+  {
+    title: 'Tutay.',
+    src: '/tutay.png',
+    href: 'https://tutay.pl/',
+    content:
+      "Tutay is your personalized guide to discovering Poland's most fascinating urban adventures. The platform offers unique and customized experiences that reveal the hidden gems of Polish cities. Whether planning a weekend getaway or exploring your hometown from a new perspective, Tutay.pl provides inspiration and practical solutions. It features curated itineraries, local attraction recommendations, and authentic city experiences to help users make the most of their time. With themes ranging from historical tours to offbeat adventures, Tutay.pl ensures a memorable exploration for all interests.",
+    technologies: ['TypeScript', 'Vue', 'Nuxt', 'Tailwind CSS', 'Shopware'],
   },
   {
     title: 'WeNet',
