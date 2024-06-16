@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Providers } from './providers';
 import ContentWrapper from '@/components/ContentWrapper';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'Dawid Bugajski - Frontend Developer',
@@ -37,6 +38,18 @@ export default function RootLayout({
       />
       <link rel='manifest' href='/site.webmanifest' />
       <body>
+        <Script
+          src='https://www.googletagmanager.com/gtag/js?id=G-PKTSK4PMDT'
+          strategy='afterInteractive'
+        />
+        <Script id='google-analytics' strategy='afterInteractive'>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-PKTSK4PMDT');
+          `}
+        </Script>
         <Providers>
           <main className='flex min-h-screen flex-col items-center justify-between bg-[#f3f4f6] dark:bg-gray dark:text-white text-gray selection:bg-green selection:text-black'>
             <div className='flex-grow h-full container mx-auto flex flex-col justify-between'>
