@@ -22,4 +22,5 @@ export interface Project {
   technologies: string[];
   repoHref?: string;
   repoSrc?: string;
+  status?: string;
 }

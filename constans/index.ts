@@ -23,6 +23,8 @@ export const LOGOS = [
   { src: '/nuxt.svg', alt: 'Nuxt' },
   { src: '/shopware.svg', alt: 'Shopware' },
   { src: '/docker.svg', alt: 'Docker' },
+  { src: '/turso.svg', alt: 'Turso' },
+  { src: '/drizzle.png', alt: 'DrizzleORM' },
 ];
 
 export const LINKS = [
@@ -53,6 +55,21 @@ export const EXPERIENCE = [
 ];
 
 export const PROJECTS = [
+  {
+    title: 'ScoreBuddies',
+    src: '/scorebuddies.png',
+    href: 'https://board-games-iota.vercel.app/',
+    content:
+      "ScoreBuddies is my ongoing full-stack project developed as a hobby. It's designed to be a comprehensive application for managing board games with friends, tracking scores, and enhancing the overall gaming experience. As a passionate board game enthusiast, I wanted to create a tool that would make it easy to keep track of game results, manage my collection, and facilitate collaboration during game nights. Although it's still a work in progress, the goal is for ScoreBuddies to become an extensive platform for board game lovers, offering a seamless way to organize and enrich their board gaming sessions.",
+    technologies: [
+      'Next.js',
+      'TypeScript',
+      'Turso',
+      'DrizzleORM',
+      'Tailwind CSS',
+    ],
+    status: 'Work in progress',
+  },
   {
     title: 'Prezentmarzeń',
     src: '/prezent-marzen.png',

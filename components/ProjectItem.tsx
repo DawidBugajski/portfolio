@@ -19,6 +19,11 @@ function ProjectItem({ project, logos }: ProjectItemProps) {
           rel='noopener noreferrer'
         >
           {project.title}
+          {project.status && (
+            <span className='ml-2 text-sm text-orange-500'>
+              ({project.status})
+            </span>
+          )}
         </Link>
         <DynamicProjectImage src={project.src} href={project.href} />
         <div className='flex flex-col justify-center gap-4'>
@@ -30,6 +35,11 @@ function ProjectItem({ project, logos }: ProjectItemProps) {
               rel='noopener noreferrer'
             >
               {project.title}
+              {project.status && (
+                <span className='ml-2 text-sm text-orange-700 dark:text-orange-500'>
+                  ({project.status})
+                </span>
+              )}
             </Link>
             {project.repoHref && project.repoSrc && (
               <Link
@@ -41,7 +51,7 @@ function ProjectItem({ project, logos }: ProjectItemProps) {
                 <StackItem
                   key={project.href}
                   src={project.repoSrc}
-                  alt='Repositorium'
+                  alt='Repository'
                 />
               </Link>
             )}
