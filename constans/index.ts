@@ -25,6 +25,7 @@ export const LOGOS = [
   { src: '/docker.svg', alt: 'Docker' },
   { src: '/turso.svg', alt: 'Turso' },
   { src: '/drizzle.png', alt: 'DrizzleORM' },
+  { src: '/playwright.svg', alt: 'Playwright' },
 ];
 
 export const LINKS = [
@@ -67,6 +68,7 @@ export const PROJECTS = [
       'Turso',
       'DrizzleORM',
       'Tailwind CSS',
+      'Playwright',
     ],
     status: 'Work in progress',
   },
